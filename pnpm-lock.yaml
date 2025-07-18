@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      starlight-theme-flexoki:
+        specifier: ^0.1.0
+        version: 0.1.0(@astrojs/starlight@0.32.1(astro@5.2.6(rollup@4.34.6)(typescript@5.7.3)))
     devDependencies:
       '@changesets/changelog-github':
         specifier: ^0.5.1
@@ -1789,6 +1793,12 @@ packages:
 
   sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
+
+  starlight-theme-flexoki@0.1.0:
+    resolution: {integrity: sha512-GVuzDN1UJLf6fIb5okqQ2t//DfN0+xWsFeFT3asf6waRvFxdyCFNfVHX9NxOr5fTb2EJmH0LCFlT8rxjB56uKg==}
+    engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
+    peerDependencies:
+      '@astrojs/starlight': '>=0.32'
 
   stream-replace-string@2.0.0:
     resolution: {integrity: sha512-TlnjJ1C0QrmxRNrON00JvaFFlNh5TTG00APw23j74ET7gkQpTASi6/L2fuiav8pzK715HXtUeClpBTw2NPSn6w==}
@@ -4502,6 +4512,10 @@ snapshots:
       signal-exit: 4.1.0
 
   sprintf-js@1.0.3: {}
+
+  starlight-theme-flexoki@0.1.0(@astrojs/starlight@0.32.1(astro@5.2.6(rollup@4.34.6)(typescript@5.7.3))):
+    dependencies:
+      '@astrojs/starlight': 0.32.1(astro@5.2.6(rollup@4.34.6)(typescript@5.7.3))
 
   stream-replace-string@2.0.0: {}
 
