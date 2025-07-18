@@ -22,6 +22,9 @@
   },
   "scripts": {
     "ci-version": "changeset version && pnpm install --no-frozen-lockfile",
-		"ci-publish": "changeset publish"
+    "ci-publish": "changeset publish"
+  },
+  "dependencies": {
+    "starlight-theme-flexoki": "^0.1.0"
   }
 }
